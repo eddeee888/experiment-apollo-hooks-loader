@@ -1,0 +1,42 @@
+{
+  "name": "webpack-experiments",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build-bundles": "webpack",
+    "build-loaders": "tsc -p tsconfig.loaders.json",
+    "build-all": "npm run build-loaders && npm run build-bundles",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddeee888/webpack-experiments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eddeee888/webpack-experiments/issues"
+  },
+  "homepage": "https://github.com/eddeee888/webpack-experiments#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "graphql-tag": "^2.10.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.3",
+    "apollo-boost": "^0.4.4",
+    "apollo-client": "^2.6.4",
+    "graphql": "^14.5.8",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
+}
