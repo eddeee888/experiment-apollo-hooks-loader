@@ -16,8 +16,6 @@ function apolloHooksLoader(source: string) {
     }
   `;
 
-  console.log(outputCode);
-
   return outputCode;
 }
 
