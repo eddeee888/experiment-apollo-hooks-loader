@@ -14,8 +14,8 @@ This is a proof-of-concept to see if we can import apollo hooks straight from a 
 
 Running `build-all` script does 2 things:
 
-- `build-loaders`: This will build our loader called `apollo-hooks-loader`
-- `build-webpack`: This will compile the query, document and a react component into `main.bundle.js` that makes a query to https://graphql-pokemon.now.sh/ to get details of Pikachu!
+- `build-loaders`: This will build our loader called `apollo-hooks-loader`. This will be used in the next script.
+- `build-webpack`: This will compile the query, document and a react component into `main.js` that makes a query to https://graphql-pokemon.now.sh/ to get details of Pikachu!
 
 # Bringing it all together
 

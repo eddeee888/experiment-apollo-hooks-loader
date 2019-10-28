@@ -1,25 +1,24 @@
 {
-  "name": "webpack-experiments",
+  "name": "experiment-apollo-hooks-loader",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "scripts": {
     "build-bundles": "webpack",
     "build-loaders": "tsc -p tsconfig.loaders.json",
-    "build-all": "npm run build-loaders && npm run build-bundles",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-all": "npm run build-loaders && npm run build-bundles"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eddeee888/webpack-experiments.git"
+    "url": "git+https://github.com/eddeee888/experiment-apollo-hooks-loader.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Eddy Nguyen",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eddeee888/webpack-experiments/issues"
+    "url": "https://github.com/eddeee888/experiment-apollo-hooks-loader/issues"
   },
-  "homepage": "https://github.com/eddeee888/webpack-experiments#readme",
+  "homepage": "https://github.com/eddeee888/experiment-apollo-hooks-loader#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
